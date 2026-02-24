@@ -9,6 +9,7 @@ import WhyChooseUs from "../components/WhyChooseUs";
 import StudentShowcase from "../components/StudentShowcase";
 import FeaturedCoursesSection from "../components/FeaturedCoursesSection";
 import { fetchCourses } from "../api/courses";
+import { Link } from "react-router-dom";
 export default function Home() {
   const { data, loading, error } = useHome();
 
@@ -75,19 +76,17 @@ export default function Home() {
 
             {/* Buttons OUTSIDE the glass card */}
             <div className="mt-6 ms-9 flex flex-wrap gap-4">
-              <a
-                href={hero?.primary_cta_url || "#"}
+              <Link to={hero?.primary_cta_url || "#"}
                 className="rounded bg-[#FF9C00] px-8 py-3 text-base font-semibold text-black shadow-md hover:bg-[#ffb23a] transition-all"
               >
                 {hero?.primary_cta_text || "View Training Program"}
-              </a>
+              </Link>
 
-              <a
-                href={hero?.secondary_cta_url || "#"}
+              <Link to={hero?.secondary_cta_url || "#"}
                 className="rounded border border-white/40 bg-white/10 px-8 py-3 text-base font-semibold text-white hover:bg-white/20 transition-all"
               >
                 {hero?.secondary_cta_text || "Free Consultation"}
-              </a>
+              </Link>
             </div>
           </div>
         </section>
