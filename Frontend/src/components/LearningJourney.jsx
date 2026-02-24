@@ -37,12 +37,12 @@ export default function LearningJourney() {
             Get expert guidance, structured training, and real-world skills that prepare you for career success.
           </p>
 
-          <Link
-            to="/contact"
+          <a
+            href="/contact"
             className="inline-block bg-white text-[#6621BA] font-semibold px-6 py-3 rounded-xl border-2 border-white hover:bg-transparent hover:text-white transition"
           >
             Get Free Consultation
-          </Link>
+          </a>
         </div>
 
       </div>

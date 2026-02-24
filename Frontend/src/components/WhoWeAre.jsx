@@ -40,12 +40,12 @@ export default function WhoWeAre() {
           </p>
 
           {/* Learn More Button → /about */}
-         <Link
-  to="/about"
+         <a
+  href="/about"
   className="inline-block bg-white text-black px-6 py-3 rounded-xl font-semibold border-2 border-[#FF9C00]/50 shadow-md hover:text-[#FF9C00] transition"
 >
   Learn More
-</Link>
+</a>
 
         </div>
       </div>
