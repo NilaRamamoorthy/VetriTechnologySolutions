@@ -200,12 +200,12 @@ export default function Header({ settings }) {
             >
               Menu
             </a>
-            <Link
-              to={"/contact"}
+            <a
+              href={settings?.header_cta_url || "/contact"}
               className="flex-1 rounded-xl bg-[#FF9C00] py-2 text-center text-white font-bold"
             >
               Enroll
-            </Link>
+            </a>
           </div>
         </div>
       </div>
