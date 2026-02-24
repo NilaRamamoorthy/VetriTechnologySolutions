@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes vtsFlow {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 400% 50%; }
+}
+
+.vts-frame {
+  position: relative;
+  background: #ffffff;
+}
+
+.vts-frame::before {
+  content: "";
+  position: absolute;
+  inset: -10px;
+  border-radius: 28px;
+  background: linear-gradient(
+    90deg,
+    #6621BA 0%,
+    #FF9C00 25%,
+    #FFD27A 50%,
+    #FF9C00 75%,
+    #6621BA 100%
+  );
+  background-size: 400% 400%;
+  animation: vtsFlow 10s linear infinite;
+  z-index: 0;
+}
+
+.vts-frame::after {
+  content: "";
+  position: absolute;
+  inset: 6px;
+  border-radius: 22px;
+  background: #ffffff;
+  z-index: 0;
+}
