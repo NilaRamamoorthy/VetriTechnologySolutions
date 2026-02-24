@@ -66,6 +66,7 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "https://vetri-technology-solutions-imoq.vercel.app/",
+    "https://vetri-technology-solutions-j3j3.vercel.app/"
 ]
 
 
