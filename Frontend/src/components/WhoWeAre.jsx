@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function WhoWeAre() {
   return (
     <section className="mx-auto max-w-6xl px-6 py-1">

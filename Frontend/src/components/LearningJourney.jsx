@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function LearningJourney() {
   return (
     <section className="relative max-w-4xl mx-auto overflow-visible mb-10 px-6 mt-12 mb-24 bg-[#6621BA] rounded-3xl">
