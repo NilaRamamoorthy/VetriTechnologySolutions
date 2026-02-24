@@ -38,7 +38,7 @@ export default function LearningJourney() {
           </p>
 
           <Link
-            to="#"
+            to="/contact"
             className="inline-block bg-white text-[#6621BA] font-semibold px-6 py-3 rounded-xl border-2 border-white hover:bg-transparent hover:text-white transition"
           >
             Get Free Consultation

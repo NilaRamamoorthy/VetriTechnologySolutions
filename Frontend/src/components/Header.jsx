@@ -182,7 +182,7 @@ export default function Header({ settings }) {
 
           {/* CTA button */}
       <Link
-  to="#"
+  to="/courses"
   className="ml-auto rounded-2xl bg-[#FF9C00] px-10 py-3 text-lg font-bold text-white shadow hover:opacity-95"
 >
   Enroll Now

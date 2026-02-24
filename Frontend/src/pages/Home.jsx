@@ -82,7 +82,7 @@ export default function Home() {
                 {hero?.primary_cta_text || "View Training Program"}
               </Link>
 
-              <Link to={"#"}
+              <Link to={"/contact"}
                 className="rounded border border-white/40 bg-white/10 px-8 py-3 text-base font-semibold text-white hover:bg-white/20 transition-all"
               >
                 {hero?.secondary_cta_text || "Free Consultation"}
