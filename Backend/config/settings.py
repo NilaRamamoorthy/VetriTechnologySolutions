@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-hgass+-n-)3c+-%)j39_h0by5-(9s(2$hro$2ybrd!^0ew8i=^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -48,9 +48,11 @@ INSTALLED_APPS = [
     "apps.blog",
     "apps.enrollments",
     "apps.contact",
+    "corsheaders",
 ]
 
 MIDDLEWARE = [
+    "corsheaders.middleware.CorsMiddleware", 
     "corsheaders.middleware.CorsMiddleware",
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -63,9 +65,8 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "http://127.0.0.1:5173",
+    "https://vetri-technology-solutions-imoq.vercel.app/",
 ]
-
 
 
 ROOT_URLCONF = 'config.urls'
