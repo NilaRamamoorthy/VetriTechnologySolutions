@@ -181,12 +181,12 @@ export default function Header({ settings }) {
           </nav>
 
           {/* CTA button */}
-      <a
-  href="/courses"
+      <Link
+  to="/courses"
   className="ml-auto rounded-2xl bg-[#FF9C00] px-10 py-3 text-lg font-bold text-white shadow hover:opacity-95"
 >
   Enroll Now
-</a>
+</Link>
 
 
         </div>
@@ -200,12 +200,12 @@ export default function Header({ settings }) {
             >
               Menu
             </a>
-            <a
-              href={settings?.header_cta_url || "/contact"}
+            <Link
+              to={settings?.header_cta_url || "/contact"}
               className="flex-1 rounded-xl bg-[#FF9C00] py-2 text-center text-white font-bold"
             >
               Enroll
-            </a>
+            </Link>
           </div>
         </div>
       </div>
