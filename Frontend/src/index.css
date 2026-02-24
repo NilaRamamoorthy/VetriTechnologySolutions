@@ -38,3 +38,7 @@
   background: #ffffff;
   z-index: 0;
 }
+
+i.bi {
+  font-family: "bootstrap-icons" !important;
+}

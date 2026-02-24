@@ -74,12 +74,12 @@ export default function Footer({ settings }) {
             <div className="mt-3 flex items-center gap-4 text-xl">
               {settings?.facebook && (
                 <a href={settings.facebook} target="_blank" rel="noreferrer" className="hover:text-[#FF9C00] transition-colors">
-                  <i className="bi bi-facebook " />
+                  <i className="bi bi-facebook text-white" />
                 </a>
               )}
               {settings?.instagram && (
                 <a href={settings.instagram} target="_blank" rel="noreferrer" className="hover:text-[#FF9C00] transition-colors">
-                  <i className="bi bi-instagram" />
+                  <i className="bi bi-instagram text-white" />
                 </a>
               )}
               {settings?.linkedin && (

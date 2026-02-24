@@ -35,7 +35,7 @@ export default function StudentShowcase() {
   };
 
   return (
-    <section className="py-3 px-6 max-w-7xl mx-auto bg-[#6621BA]">
+    <section className="py-3 px-6 mt-4 max-w-7xl mx-auto bg-[#6621BA]">
       <h2 className="text-lg font-bold text-center text-white">
         Students Success Projects
       </h2>

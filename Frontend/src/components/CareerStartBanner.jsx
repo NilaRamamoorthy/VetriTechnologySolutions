@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function CareerStartBanner() {
   return (
     <section className="relative w-full max-w-4xl mx-auto mt-10 px-6 py-3 mb-8 bg-[#6621BA] rounded-3xl overflow-hidden">
@@ -32,12 +33,12 @@ export default function CareerStartBanner() {
 
         
         </div>
-  <a
-            href="/contact"
+  <Link
+            to="/contact"
             className="inline-block bg-white text-[#6621BA] font-semibold px-6 py-3 rounded-xl border-2 border-[#FF9C00] hover:bg-[#FF9C00] hover:text-white transition"
           >
             Get Free Consultation Now
-          </a>
+          </Link>
       </div>
     </section>
   );

@@ -7,7 +7,7 @@ import LearningJourney from "../components/LearningJourney";
 import FeaturedCourses from "../components/FeaturedCourses";
 import WhyChooseUs from "../components/WhyChooseUs";
 import StudentShowcase from "../components/StudentShowcase";
-import FeaturedCoursesSection from "../components/FeaturedCoursesSection";
+// import FeaturedCoursesSection from "../components/FeaturedCoursesSection";
 import { fetchCourses } from "../api/courses";
 import { Link } from "react-router-dom";
 export default function Home() {
@@ -114,16 +114,7 @@ export default function Home() {
       <WhyChooseUs />
 
         <HowVTSWorks steps={steps} />
- {/* {coursesError ? (
-        <div className="mx-auto max-w-6xl px-6 mt-8 text-red-600">
-          {coursesError}
-        </div>
-      ) : null}
-
-      <FeaturedCoursesSection
-        courses={coursesList}
-        limit={3}
-      /> */}
+ <FeaturedCourses />
 
          <StudentShowcase />
 

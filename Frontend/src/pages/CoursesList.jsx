@@ -45,12 +45,12 @@ export default function CoursesList() {
         <div className="flex flex-wrap items-center justify-between gap-4">
           <h1 className="text-2xl font-semibold">Explore Courses by Career Path</h1>
 
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="rounded-xl bg-[#FF9C00] px-5 py-2 font-semibold text-white"
           >
             Free Consultation
-          </a>
+          </Link>
         </div>
 
         {/* Tabs */}
